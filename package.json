@@ -4,6 +4,7 @@
   "description": "Example extension code for Bridge Alumni C&C",
   "main": "index.js",
   "dependencies": {
+    "dotenv-webpack": "^1.5.7",
     "react": "^16.5.2",
     "react-dom": "^16.5.2"
   },

@@ -3,3 +3,6 @@
 
 # output folders
 /dist
+
+# This contains sensitive info, don't store in source control
+.env

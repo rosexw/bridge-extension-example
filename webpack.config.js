@@ -2,12 +2,14 @@ var path = require('path');
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var CopyWebpackPlugin = require('copy-webpack-plugin');
+const Dotenv = require('dotenv-webpack');
 
 const bundleOutputPath = path.resolve(__dirname, 'dist'); // base path for the bundle
 
 module.exports = {
     entry: {
         'index': './src/index.js',
+        'script' : './src/script.js',
     },
     output: {
         path: bundleOutputPath,
@@ -39,5 +41,6 @@ module.exports = {
                 from: 'src/meta'
             }
         ]),
+        new Dotenv(),
     ]
 };
