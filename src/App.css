@@ -1,0 +1,18 @@
+.App {
+    width: 140px;
+    height: 100px;
+    text-align: center;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App-button {
+    padding: 10px 20px;
+    background-color: #D33F49;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    font-size: 18px;
+}

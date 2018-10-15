@@ -1,10 +1,7 @@
 import React, {Component} from 'react';
-// import './App.css';
+import './App.css';
 
 class App extends Component {
-    test() {
-        console.log('test')
-    }
     render() {
         return (
             <div className="App">
@@ -12,7 +9,7 @@ class App extends Component {
                     <h1 className="App-title">Cats</h1>
                 </header>
                 <p>Ready for fun!</p>
-                <button onClick={this.test}>test</button>
+                <button>test</button>
             </div>
         );
     }
