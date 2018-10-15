@@ -14,11 +14,9 @@ export const getApiData = (giphyTag) => {
             throw error;
         }
         return response.json();
-    })
-        .then(json => {
+    }).then(json => {
         return json;
-    })
-        .catch(ex => {
-            console.log('parsing failed', ex)
-        });
+    }).catch(ex => {
+        console.log('parsing failed', ex)
+    });
 };

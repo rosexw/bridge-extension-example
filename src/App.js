@@ -56,11 +56,7 @@ class App extends Component {
 
         return (
             <div className="App">
-                <header className="App-header">
-                    <h1 className="App-title">Welcome to Catlify</h1>
-                </header>
-                <p>Click to start Catifying</p>
-                <button onClick={() => this.sendRequest(transferableData)}>Catify me</button>
+                <button className="App-button" onClick={() => this.sendRequest(transferableData)}>Catify me</button>
             </div>
         );
     }
