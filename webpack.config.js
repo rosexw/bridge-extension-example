@@ -9,6 +9,7 @@ const bundleOutputPath = path.resolve(__dirname, 'dist'); // base path for the b
 module.exports = {
     entry: {
         'index': './src/index.js',
+        'script' : './src/script.js',
     },
     output: {
         path: bundleOutputPath,
